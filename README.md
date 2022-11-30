@@ -1,2 +1,2 @@
 # hw6
-client/server classes for Hw6
+client/server classes for Hw5
