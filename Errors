@@ -1,0 +1,41 @@
+seanmirahsani@Seans-MacBook-Pro-3 hw5-WALID-UPDATED % make
+jsonrpcstub ecs36b_hw5.json --cpp-server=hw5Server --cpp-client=hw5Client
+g++ -std=c++17 -c -I/opt/homebrew/include -g myCar.cpp
+In file included from myCar.cpp:20:
+./hw5server.cpp:70:68: error: unexpected ';' before '}'
+      throw ecs36b_Exception { ("action " + action + " mismatched"); }
+                                                                   ^
+./hw5server.cpp:70:13: error: no matching constructor for initialization of 'ecs36b_Exception'
+      throw ecs36b_Exception { ("action " + action + " mismatched"); }
+            ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./ecs36b_Exception.h:14:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'basic_string<char, std::char_traits<char>, std::allocator<char>>' to 'const ecs36b_Exception' for 1st argument
+class ecs36b_Exception : public another, exception
+      ^
+./ecs36b_Exception.h:14:7: note: candidate constructor (the implicit default constructor) not viable: requires 0 arguments, but 1 was provided
+In file included from myCar.cpp:20:
+./hw5server.cpp:70:71: error: expected ';' after expression
+      throw ecs36b_Exception { ("action " + action + " mismatched"); }
+                                                                      ^
+                                                                      ;
+./hw5server.cpp:76:66: error: unexpected ';' before '}'
+      throw ecs36b_Exception { ("class " + class_id + " unknown"); }
+                                                                 ^
+./hw5server.cpp:76:13: error: no matching constructor for initialization of 'ecs36b_Exception'
+      throw ecs36b_Exception { ("class " + class_id + " unknown"); }
+            ^                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./ecs36b_Exception.h:14:7: note: candidate constructor (the implicit copy constructor) not viable: no known conversion from 'basic_string<char, std::char_traits<char>, std::allocator<char>>' to 'const ecs36b_Exception' for 1st argument
+class ecs36b_Exception : public another, exception
+      ^
+./ecs36b_Exception.h:14:7: note: candidate constructor (the implicit default constructor) not viable: requires 0 arguments, but 1 was provided
+In file included from myCar.cpp:20:
+./hw5server.cpp:76:69: error: expected ';' after expression
+      throw ecs36b_Exception { ("class " + class_id + " unknown"); }
+                                                                    ^
+                                                                    ;
+./hw5server.cpp:79:49: error: member reference type 'std::map<std::string, Motorcycle *>::mapped_type' (aka 'Motorcycle *') is a pointer; did you mean to use '->'?
+    result["Vehicle Info"] = Moto_Map[object_id].dump2JSON();
+                             ~~~~~~~~~~~~~~~~~~~^
+                                                ->
+7 errors generated.
+make: *** [myCar.o] Error 1
+seanmirahsani@Seans-MacBook-Pro-3 hw5-WALID-UPDATED % 
