@@ -1,0 +1,38 @@
+{
+	"check_word" : "_o___",
+	"game_id" : "95319_2022-12-03T00:39:51+0000",
+	"guesses" : 
+	{
+		"data" : 
+		[
+			{
+				"guess" : "jumpy",
+				"result" : "_____",
+				"time" : "2022-12-03T00:39:51+0000"
+			},
+			{
+				"guess" : "bling",
+				"result" : "_#___",
+				"time" : "2022-12-03T00:39:51+0000"
+			},
+			{
+				"guess" : "track",
+				"result" : "o_o__",
+				"time" : "2022-12-03T00:39:51+0000"
+			},
+			{
+				"guess" : "waqfs",
+				"result" : "_o_o_",
+				"time" : "2022-12-03T00:39:51+0000"
+			},
+			{
+				"guess" : "vozhd",
+				"result" : "_o___",
+				"time" : "2022-12-03T00:39:51+0000"
+			}
+		]
+	},
+	"remaining_score" : 95,
+	"score_distributed" : false,
+	"word" : "float"
+}

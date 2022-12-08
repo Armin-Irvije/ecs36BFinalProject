@@ -1,0 +1,18 @@
+{
+	"check_word" : "_____",
+	"game_id" : "26457_2022-12-03T00:33:46+0000",
+	"guesses" : 
+	{
+		"data" : 
+		[
+			{
+				"guess" : "jumpy",
+				"result" : "_____",
+				"time" : "2022-12-03T00:33:46+0000"
+			}
+		]
+	},
+	"remaining_score" : 99,
+	"score_distributed" : false,
+	"word" : "terra"
+}

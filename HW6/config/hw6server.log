@@ -1,0 +1,1267 @@
+[2022-11-26T08:22:29+0000] {
+	"arg action" : "set_name",
+	"arg student_list" : 
+	[
+		"987654321",
+		"987654324",
+		"987654327"
+	],
+	"arg team_name" : "foo",
+	"result" : 
+	{
+		"word" : "?????"
+	}
+}
+
+[2022-11-26T08:22:29+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg my_guess" : "worry",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -4,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "Wordle solved already",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-11-26T08:22:29+0000] {
+	"arg action" : "submit",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg team_name" : "foo",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -5,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "score has been distributed",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-11-26T08:22:29+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "10348_2022-11-26T08:22:29+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-11-26T08:22:29+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "10348_2022-11-26T08:22:29+0000",
+	"arg my_guess" : "earth",
+	"result" : 
+	{
+		"check_word" : "o____",
+		"game_id" : "10348_2022-11-26T08:22:29+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "o____",
+					"time" : "2022-11-26T08:22:29+0000"
+				}
+			]
+		},
+		"remaining_score" : 99,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-11-26T08:22:29+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "10348_2022-11-26T08:22:29+0000",
+	"arg my_guess" : "mound",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "10348_2022-11-26T08:22:29+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "o____",
+					"time" : "2022-11-26T08:22:29+0000"
+				},
+				{
+					"guess" : "mound",
+					"result" : "_____",
+					"time" : "2022-11-26T08:22:29+0000"
+				}
+			]
+		},
+		"remaining_score" : 98,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-11-26T08:22:29+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "10348_2022-11-26T08:22:29+0000",
+	"arg my_guess" : "sicky",
+	"result" : 
+	{
+		"check_word" : "_#___",
+		"game_id" : "10348_2022-11-26T08:22:29+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "o____",
+					"time" : "2022-11-26T08:22:29+0000"
+				},
+				{
+					"guess" : "mound",
+					"result" : "_____",
+					"time" : "2022-11-26T08:22:29+0000"
+				},
+				{
+					"guess" : "sicky",
+					"result" : "_#___",
+					"time" : "2022-11-26T08:22:29+0000"
+				}
+			]
+		},
+		"remaining_score" : 97,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T20:19:56+0000] {
+	"arg action" : "set_name",
+	"arg student_list" : 
+	[
+		"917581829",
+		"921459206",
+		"918502182",
+		"919909111"
+	],
+	"arg team_name" : "WASA",
+	"result" : 
+	{
+		"error_code" : -7,
+		"reason" : "student format incorrect. index = 0",
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T20:25:32+0000] {
+	"arg action" : "set_name",
+	"arg student_list" : 
+	[
+		"917581829",
+		"921459206",
+		"918502182",
+		"919909111"
+	],
+	"arg team_name" : "WASA",
+	"result" : 
+	{
+		"error_code" : -7,
+		"reason" : "student format incorrect. index = 0",
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T20:25:53+0000] {
+	"arg action" : "set_name",
+	"arg student_list" : 
+	[
+		"917581829",
+		"921459206",
+		"918502182",
+		"919909111"
+	],
+	"arg team_name" : "WASA",
+	"result" : 
+	{
+		"error_code" : -7,
+		"reason" : "student format incorrect. index = 0",
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T20:46:03+0000] {
+	"arg action" : "set_name",
+	"arg student_list" : 
+	[
+		"917581829",
+		"921459206",
+		"918502182",
+		"919909111"
+	],
+	"arg team_name" : "WASA",
+	"result" : 
+	{
+		"error_code" : -5,
+		"reason" : "team name already taken: WASA",
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:29:47+0000] {
+	"arg action" : "set_name",
+	"arg student_list" : 
+	[
+		"917581829",
+		"921459206",
+		"918502182",
+		"919909111"
+	],
+	"arg team_name" : "WASA",
+	"result" : 
+	{
+		"error_code" : -5,
+		"reason" : "team name already taken: WASA",
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:31:05+0000] {
+	"arg action" : "set_name",
+	"arg student_list" : 
+	[
+		"917581829",
+		"921459206",
+		"918502182",
+		"919909111"
+	],
+	"arg team_name" : "WASA",
+	"result" : 
+	{
+		"error_code" : -5,
+		"reason" : "team name already taken: WASA",
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:34:42+0000] {
+	"arg action" : "set_name",
+	"arg student_list" : 
+	[
+		"917581829",
+		"921459206",
+		"918502182",
+		"919909111"
+	],
+	"arg team_name" : "WASA",
+	"result" : 
+	{
+		"error_code" : -5,
+		"reason" : "team name already taken: WASA",
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:34:42+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "13978_2022-12-02T23:34:42+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:34:42+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg my_guess" : "worry",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -4,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "Wordle solved already",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:34:42+0000] {
+	"arg action" : "submit",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg team_name" : "foo",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -5,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "score has been distributed",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:34:42+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg my_guess" : "earth",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -4,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "Wordle solved already",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:34:42+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg my_guess" : "mound",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -4,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "Wordle solved already",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:34:42+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg my_guess" : "sicky",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -4,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "Wordle solved already",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:36:21+0000] {
+	"arg action" : "set_name",
+	"arg student_list" : 
+	[
+		"917581829",
+		"921459206",
+		"918502182",
+		"919909111"
+	],
+	"arg team_name" : "WASA",
+	"result" : 
+	{
+		"error_code" : -5,
+		"reason" : "team name already taken: WASA",
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:36:21+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "4625_2022-12-02T23:36:21+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:54:53+0000] {
+	"arg action" : "set_name",
+	"arg student_list" : 
+	[
+		"917581829",
+		"921459206",
+		"918502182",
+		"919909111"
+	],
+	"arg team_name" : "WASA",
+	"result" : 
+	{
+		"error_code" : -5,
+		"reason" : "team name already taken: WASA",
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:54:53+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "60841_2022-12-02T23:54:53+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:54:53+0000] {
+	"arg action" : "submit",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg team_name" : "foo",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -5,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "score has been distributed",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:59:47+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "80179_2022-12-02T23:59:47+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-02T23:59:47+0000] {
+	"arg action" : "submit",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg team_name" : "WASA",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -5,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "score has been distributed",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:12:17+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "93282_2022-12-03T00:12:17+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:15:06+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "12620_2022-12-03T00:15:06+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:15:06+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg my_guess" : "worry",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -4,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "Wordle solved already",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:27:42+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "15541_2022-12-03T00:27:42+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:27:42+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "15541_2022-12-03T00:27:42+0000",
+	"arg my_guess" : "earth",
+	"result" : 
+	{
+		"check_word" : "o____",
+		"game_id" : "15541_2022-12-03T00:27:42+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "o____",
+					"time" : "2022-12-03T00:27:42+0000"
+				}
+			]
+		},
+		"remaining_score" : 99,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:27:42+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "15541_2022-12-03T00:27:42+0000",
+	"arg my_guess" : "mound",
+	"result" : 
+	{
+		"check_word" : "#o_o_",
+		"game_id" : "15541_2022-12-03T00:27:42+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "o____",
+					"time" : "2022-12-03T00:27:42+0000"
+				},
+				{
+					"guess" : "mound",
+					"result" : "#o_o_",
+					"time" : "2022-12-03T00:27:42+0000"
+				}
+			]
+		},
+		"remaining_score" : 98,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:27:42+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "15541_2022-12-03T00:27:42+0000",
+	"arg my_guess" : "sicky",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "15541_2022-12-03T00:27:42+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "o____",
+					"time" : "2022-12-03T00:27:42+0000"
+				},
+				{
+					"guess" : "mound",
+					"result" : "#o_o_",
+					"time" : "2022-12-03T00:27:42+0000"
+				},
+				{
+					"guess" : "sicky",
+					"result" : "_____",
+					"time" : "2022-12-03T00:27:42+0000"
+				}
+			]
+		},
+		"remaining_score" : 97,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:30:21+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "45364_2022-12-03T00:30:21+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:30:21+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg my_guess" : "jumpy",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -4,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "Wordle solved already",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:30:21+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg my_guess" : "bling",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -4,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "Wordle solved already",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:30:21+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "19056_2022-11-24T20:26:16+0000",
+	"arg my_guess" : "track",
+	"result" : 
+	{
+		"check_word" : "#####",
+		"error_code" : -4,
+		"game_id" : "19056_2022-11-24T20:26:16+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "earth",
+					"result" : "__#__",
+					"time" : "2022-11-24T20:26:16+0000"
+				},
+				{
+					"guess" : "worry",
+					"result" : "#####",
+					"time" : "2022-11-25T04:05:27+0000"
+				}
+			]
+		},
+		"reason" : "Wordle solved already",
+		"remaining_score" : 99,
+		"score_distributed" : true,
+		"status" : "failed",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:33:46+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "26457_2022-12-03T00:33:46+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:33:46+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "26457_2022-12-03T00:33:46+0000",
+	"arg my_guess" : "jumpy",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "26457_2022-12-03T00:33:46+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "jumpy",
+					"result" : "_____",
+					"time" : "2022-12-03T00:33:46+0000"
+				}
+			]
+		},
+		"remaining_score" : 99,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:35:00+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "5842_2022-12-03T00:35:00+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:35:00+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "5842_2022-12-03T00:35:00+0000",
+	"arg my_guess" : "jumpy",
+	"result" : 
+	{
+		"check_word" : "_o___",
+		"game_id" : "5842_2022-12-03T00:35:00+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "jumpy",
+					"result" : "_o___",
+					"time" : "2022-12-03T00:35:00+0000"
+				}
+			]
+		},
+		"remaining_score" : 99,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:35:00+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "5842_2022-12-03T00:35:00+0000",
+	"arg my_guess" : "bling",
+	"result" : 
+	{
+		"check_word" : "__o__",
+		"game_id" : "5842_2022-12-03T00:35:00+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "jumpy",
+					"result" : "_o___",
+					"time" : "2022-12-03T00:35:00+0000"
+				},
+				{
+					"guess" : "bling",
+					"result" : "__o__",
+					"time" : "2022-12-03T00:35:00+0000"
+				}
+			]
+		},
+		"remaining_score" : 98,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:39:51+0000] {
+	"arg action" : "obtain",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "00000000",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "95319_2022-12-03T00:39:51+0000",
+		"remaining_score" : 100,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:39:51+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "95319_2022-12-03T00:39:51+0000",
+	"arg my_guess" : "jumpy",
+	"result" : 
+	{
+		"check_word" : "_____",
+		"game_id" : "95319_2022-12-03T00:39:51+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "jumpy",
+					"result" : "_____",
+					"time" : "2022-12-03T00:39:51+0000"
+				}
+			]
+		},
+		"remaining_score" : 99,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:39:51+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "95319_2022-12-03T00:39:51+0000",
+	"arg my_guess" : "bling",
+	"result" : 
+	{
+		"check_word" : "_#___",
+		"game_id" : "95319_2022-12-03T00:39:51+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "jumpy",
+					"result" : "_____",
+					"time" : "2022-12-03T00:39:51+0000"
+				},
+				{
+					"guess" : "bling",
+					"result" : "_#___",
+					"time" : "2022-12-03T00:39:51+0000"
+				}
+			]
+		},
+		"remaining_score" : 98,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:39:51+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "95319_2022-12-03T00:39:51+0000",
+	"arg my_guess" : "track",
+	"result" : 
+	{
+		"check_word" : "o_o__",
+		"game_id" : "95319_2022-12-03T00:39:51+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "jumpy",
+					"result" : "_____",
+					"time" : "2022-12-03T00:39:51+0000"
+				},
+				{
+					"guess" : "bling",
+					"result" : "_#___",
+					"time" : "2022-12-03T00:39:51+0000"
+				},
+				{
+					"guess" : "track",
+					"result" : "o_o__",
+					"time" : "2022-12-03T00:39:51+0000"
+				}
+			]
+		},
+		"remaining_score" : 97,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:39:51+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "95319_2022-12-03T00:39:51+0000",
+	"arg my_guess" : "waqfs",
+	"result" : 
+	{
+		"check_word" : "_o_o_",
+		"game_id" : "95319_2022-12-03T00:39:51+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "jumpy",
+					"result" : "_____",
+					"time" : "2022-12-03T00:39:51+0000"
+				},
+				{
+					"guess" : "bling",
+					"result" : "_#___",
+					"time" : "2022-12-03T00:39:51+0000"
+				},
+				{
+					"guess" : "track",
+					"result" : "o_o__",
+					"time" : "2022-12-03T00:39:51+0000"
+				},
+				{
+					"guess" : "waqfs",
+					"result" : "_o_o_",
+					"time" : "2022-12-03T00:39:51+0000"
+				}
+			]
+		},
+		"remaining_score" : 96,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+
+[2022-12-03T00:39:51+0000] {
+	"arg action" : "guess",
+	"arg class_id" : "Wordle",
+	"arg game_id" : "95319_2022-12-03T00:39:51+0000",
+	"arg my_guess" : "vozhd",
+	"result" : 
+	{
+		"check_word" : "_o___",
+		"game_id" : "95319_2022-12-03T00:39:51+0000",
+		"guesses" : 
+		{
+			"data" : 
+			[
+				{
+					"guess" : "jumpy",
+					"result" : "_____",
+					"time" : "2022-12-03T00:39:51+0000"
+				},
+				{
+					"guess" : "bling",
+					"result" : "_#___",
+					"time" : "2022-12-03T00:39:51+0000"
+				},
+				{
+					"guess" : "track",
+					"result" : "o_o__",
+					"time" : "2022-12-03T00:39:51+0000"
+				},
+				{
+					"guess" : "waqfs",
+					"result" : "_o_o_",
+					"time" : "2022-12-03T00:39:51+0000"
+				},
+				{
+					"guess" : "vozhd",
+					"result" : "_o___",
+					"time" : "2022-12-03T00:39:51+0000"
+				}
+			]
+		},
+		"remaining_score" : 95,
+		"score_distributed" : false,
+		"status" : "successful",
+		"word" : "?????"
+	}
+}
+

@@ -1,0 +1,23 @@
+{
+	"check_word" : "__o__",
+	"game_id" : "5842_2022-12-03T00:35:00+0000",
+	"guesses" : 
+	{
+		"data" : 
+		[
+			{
+				"guess" : "jumpy",
+				"result" : "_o___",
+				"time" : "2022-12-03T00:35:00+0000"
+			},
+			{
+				"guess" : "bling",
+				"result" : "__o__",
+				"time" : "2022-12-03T00:35:00+0000"
+			}
+		]
+	},
+	"remaining_score" : 98,
+	"score_distributed" : false,
+	"word" : "virus"
+}
