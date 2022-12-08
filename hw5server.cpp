@@ -67,16 +67,16 @@ MyServer::obtain(const std::string &action, const std::string &class_id,
     if (action != "obtain")
     {
       error_code = -1;
-      throw ecs36b_Exception { ("action " + action + " mismatched"); }
+      throw ecs36b_Exception { ("action " + action + " mismatched") };
     }
 
     if (class_id != "Motorcycle")
     {
       error_code = -2;
-      throw ecs36b_Exception { ("class " + class_id + " unknown"); }
+      throw ecs36b_Exception { ("class " + class_id + " unknown") };
     }
 
-    result["Vehicle Info"] = Moto_Map[object_id].dump2JSON();
+    result["Vehicle Info"] = Moto_Map[object_id]->dump2JSON();
   }
   catch (ecs36b_Exception &e)
   {
@@ -170,3 +170,11 @@ MyServer::done()
   is_done = true;
   return result;
 }
+
+/*
+
+changed ; for throw exceptions
+changed result["Vehicle Info"] = Moto_Map[object_id].dump2JSON(); 
+    to  result["Vehicle Info"] = Moto_Map[object_id]->dump2JSON();
+
+*/
